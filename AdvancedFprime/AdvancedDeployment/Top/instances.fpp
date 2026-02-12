@@ -70,6 +70,8 @@ module AdvancedDeployment {
 
 
   instance gpioDriver: Drv.LinuxGpioDriver base id 0x10015000
+
+  instance i2cDriver: Drv.LinuxI2cDriver base id 0x10016000
   
 
 }
