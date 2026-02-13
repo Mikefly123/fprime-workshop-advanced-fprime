@@ -79,7 +79,7 @@ int main(int argc, char* argv[]) {
     imuStates::TopologyState inputs;
     inputs.hostname = hostname;
     inputs.port = port_number;
-    inputs.mpu.device = "/dev/i2c1";
+    inputs.mpu.device = "/dev/i2c-1";
 
     // Setup program shutdown via Ctrl-C
     signal(SIGINT, signalHandler);
