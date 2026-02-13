@@ -25,6 +25,7 @@ telemetry packets imuStatesPackets {
     imuStates.rateGroup3.RgMaxTime
 
     MpuImu.ImuManager.Reading
+    MpuImu.ImuManager.up
   }
 
   packet CDHErrors id 2 group 1 {
